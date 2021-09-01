@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int  n; 
+  int  n; 
   cin >> n;
   bool flag = true;
   for(int i=2;i*i<=n;i++){
@@ -11,5 +11,5 @@ int main(){
     }
   }
   cout<<flag;
-	return 0;
+  return 0;
 }
