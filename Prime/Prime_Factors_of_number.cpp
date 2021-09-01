@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int  n,i; 
+  int  n,i; 
   cin >> n;
   vector<int> v;
   for(i=2;i*i<=n;i++){
@@ -17,5 +17,5 @@ int main(){
 
   for(auto i = v.begin();i!=v.end();i++)
     cout<<*i<<" "; 
-  	return 0;
+  return 0;
 }
