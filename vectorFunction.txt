@@ -1,0 +1,7 @@
+vector v;
+*min_element(v.begin(),v.end());
+*max_element(v.begin(),v.end());
+accumulate(v.begin(),v.end(),0);
+cout(v.begin(),v.end(),1);
+find(v.begin(),v.end(),1);
+reversed(v.begin(),v.end());
