@@ -1,0 +1,2 @@
+[](datatype variable){return statement}(value);
+[](int x){return x+2}(4);
